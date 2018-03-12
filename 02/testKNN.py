@@ -1,0 +1,20 @@
+#reload(KNN)
+#datingDataMat,datingLabels = KNN.file2matrix(datingTestSet.txt)
+import KNN
+import matplotlib
+import matplotlib.pyplot as plt
+group,labels= KNN.createDataSet()
+#print(group)
+# datingDataMat,datingLabels = KNN.file2matrix('datingTestSet2.txt')
+# print(datingDataMat)
+# print(datingLabels[0:4])
+# fig = plt.figure()
+# ax = fig.add_subplot(111)
+# ax.scatter(datingDataMat[:,1],datingDataMat[:,2],)
+# plt.show()
+#KNN.handwritingClassTest()
+# normMat, ranges,minVals = KNN.autoNorm(datingDataMat)
+# print(normMat)
+# print("r",ranges)
+# print("m",minVals)
+KNN.datingClassTest()
